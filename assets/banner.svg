@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07080A"/><stop offset="1" stop-color="#12151A"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F5D98B"/><stop offset=".55" stop-color="#E7C36F"/><stop offset="1" stop-color="#B8893A"/></linearGradient>
+    <radialGradient id="glow" cx=".78" cy=".35" r=".55"><stop offset="0" stop-color="#E7C36F" stop-opacity=".16"/><stop offset="1" stop-color="#E7C36F" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1F242C" stroke-width="1"/></pattern>
+  </defs>
+  <rect width="1280" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="360" rx="24" fill="url(#grid)" opacity=".55"/>
+  <rect width="1280" height="360" rx="24" fill="url(#glow)"/>
+  <g transform="translate(760 70)" stroke-width="2">
+    <g stroke="#34D399" fill="#34D399"><line x1="20" y1="150" x2="20" y2="230"/><rect x="12" y="170" width="16" height="44" rx="2"/>
+      <line x1="60" y1="120" x2="60" y2="200"/><rect x="52" y="135" width="16" height="50" rx="2"/>
+      <line x1="140" y1="80" x2="140" y2="170"/><rect x="132" y="95" width="16" height="60" rx="2"/>
+      <line x1="220" y1="40" x2="220" y2="130"/><rect x="212" y="55" width="16" height="60" rx="2"/>
+      <line x1="340" y1="10" x2="340" y2="110"/><rect x="332" y="25" width="16" height="66" rx="2"/></g>
+    <g stroke="#F26571" fill="#F26571"><line x1="100" y1="110" x2="100" y2="190"/><rect x="92" y="125" width="16" height="40" rx="2"/>
+      <line x1="180" y1="70" x2="180" y2="150"/><rect x="172" y="85" width="16" height="44" rx="2"/>
+      <line x1="260" y1="50" x2="260" y2="140"/><rect x="252" y="62" width="16" height="52" rx="2"/>
+      <line x1="300" y1="60" x2="300" y2="150"/><rect x="292" y="80" width="16" height="40" rx="2"/></g>
+    <path d="M0 215 C 80 190, 120 150, 180 120 S 290 70, 380 20" fill="none" stroke="url(#gold)" stroke-width="3" opacity=".9"/>
+  </g>
+  <text x="72" y="150" font-family="-apple-system, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="url(#gold)">AITrading</text>
+  <text x="74" y="196" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" letter-spacing="6" fill="#A6AEBA">GOLD MARKET DESK</text>
+  <text x="74" y="252" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#EEF0F3">Real-time XAUUSD monitoring · Rule-based alerts · Human-in-the-loop</text>
+  <text x="74" y="292" font-family="-apple-system, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#6F7986">macOS app · Web desk · Telegram · MetaTrader 5</text>
+</svg>
