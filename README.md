@@ -21,7 +21,7 @@
 
 ## ✨ Highlights
 
-| | |
+| Feature | What it does |
 |---|---|
 | ⚡ **Real-time** | Prices stream from MetaTrader 5 to the Mac app in ~0.25 s and to the web desk within a few seconds. |
 | 🧭 **Multi-timeframe engine** | A rule-based signal engine reads closed candles across timeframes and raises a staged alert only when every condition is met. |
